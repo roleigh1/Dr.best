@@ -1,0 +1,115 @@
+body{
+   font-family: 'PT Sans', sans-serif;
+  
+}
+nav{
+    display: inline-flex;
+       
+}
+#bar {
+   position: absolute;
+   right: 1%;
+   top: 5%;
+   word-spacing: 5px;
+
+}
+a {
+    text-decoration: none; 
+    font-size: 32px; 
+    color: black;
+}
+h1{
+    font-size: 32px; 
+}
+ 
+.main{
+    padding-top:34px; 
+}
+.banner {
+    position:relative;
+    display: flex;
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+    height:300px; 
+}
+.content{
+   margin:auto;
+    background-color: aliceblue;
+    width: 100%; 
+    text-align: center;
+    opacity: 0.7;
+}
+#portfolio{
+    min-height: 500px; 
+    margin: auto;
+    padding-top: 60px; 
+     
+
+}
+#content h1{
+    text-align: center;
+
+}
+.treatments {
+    display:flex; 
+    flex-wrap:wrap; 
+    justify-content: space-around; 
+}
+.treatment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.treatment img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+.staff{
+    margin-top: 5%; 
+}
+.praxis {
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg);
+    height: 40%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.doctors {
+    padding: 10px;
+    color: white;
+    
+}
+.doctors img {
+    display: flex;
+
+    padding-bottom: 50px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+ h3,h2{
+    text-align: center;
+ }
+ .contact {
+    text-align: center;
+ }
+
+    
+@media only screen and (max-width:480px){
+    h1{
+        display:none; 
+    }
+    hr {
+        display:none; 
+    }
+    .main{
+        margin-top: 5%;
+    }
+
+}
